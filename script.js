@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Finalizar compra
     document.querySelector(".checkout").addEventListener("click", () => {
-        alert("Compra finalizada com sucesso!");
+        alert("Para realizar sua compra acesse o estande!");
         cart.length = 0;
         updateCart();
     });
