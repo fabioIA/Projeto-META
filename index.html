@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Mercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Mercado</h1>
+    </header>
+    <main class="content">
+        <section class="products">
+            <div class="product" data-name="Suco" data-price="5.00">
+                <h2>Suco</h2>
+                <p>Delicioso suco natural.</p>
+                <p class="price">R$ 5,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Biscoito" data-price="3.50">
+                <h2>Biscoito</h2>
+                <p>Biscoito crocante de chocolate.</p>
+                <p class="price">R$ 3,50</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Chips" data-price="4.00">
+                <h2>Chips</h2>
+                <p>Batata chips temperada.</p>
+                <p class="price">R$ 4,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Macarrão" data-price="7.50">
+                <h2>Macarrão</h2>
+                <p>Macarrão artesanal italiano.</p>
+                <p class="price">R$ 7,50</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Pipoca" data-price="6.00">
+                <h2>Pipoca</h2>
+                <p>Pipoca gourmet com caramelo.</p>
+                <p class="price">R$ 6,00</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+        <aside class="cart hidden">
+            <h2>Carrinho</h2>
+            <ul class="cart-items"></ul>
+            <p class="total">Total: R$ 0,00</p>
+            <button class="checkout">Finalizar Compra</button>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
