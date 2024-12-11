@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
-        totalElement.textContent = Total: R$ ${total.toFixed(2)};
+        totalElement.textContent = ´Total: R$ ${total.toFixed(2)}´;
     }
 
     // Adiciona um produto ao carrinho
